@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.1'
+gem 'rails', '7.1.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -8,7 +8,7 @@ gem 'rails', '3.0.1'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'gravatar_image_tag', '0.1.0'
 gem 'will_paginate', '3.0.pre2'
-gem 'taps', '0.3.14'
+gem 'taps', '0.3.15'
 gem 'authlogic', '2.1.6'
 gem 'haml'
 
@@ -20,7 +20,7 @@ end
 
 group :test do
   gem 'rspec', '2.0.1'
-  gem 'webrat', '0.7.1'
+  gem 'webrat', '0.7.2'
   gem 'spork', '0.8.4'
   gem 'factory_girl_rails', '1.0'
 end
